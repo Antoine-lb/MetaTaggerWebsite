@@ -37,7 +37,7 @@ background: linear-gradient(to right, #2a0845, #4a2e7e); */
   font-style: normal;
 
   --dot-bg: #170320;
-  --dot-color: #353535;
+  --dot-color: #2f0444;
   --dot-size: 2px;
   --dot-space: 42px;
   background: linear-gradient(
