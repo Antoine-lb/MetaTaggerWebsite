@@ -1,14 +1,6 @@
 <script lang="ts">
   // import { base } from '$app/paths';
-  import LandingBlock from "$lib/components/LandingBlock.svelte";
-  import LearnMoreBlock from "$lib/components/LearnMoreBlock.svelte";
-  import {
-    CTA_URL,
-    CANNY_URL,
-    YOUTUBE_CHANNEL_URL,
-    GITHUB_LINK,
-    YOUTUBE_MAIN_VIDEO_EMBEDED,
-  } from "$lib/constants";
+  import { DISCORD_CHANNEl, GITHUB_LINK } from "$lib/constants";
 
   import YoutubeThumbnail from "$lib/components/YoutubeThumbnail.svelte";
   import DowloadPage from "$lib/DowloadPage.svelte";
@@ -24,7 +16,7 @@
 <!-- HERO -->
 <!-- HERO -->
 <img
-  class="fixed top-0 -z-10"
+  class="absolute top-0 -z-10"
   src="/cover-image.png"
   alt="a screenshot of the app"
 />
@@ -61,10 +53,19 @@
 <br />
 <br />
 
-<a href="">Join Discord</a>
-<a href="">Check Github</a>
-
 <DowloadPage />
+
+<br />
+<div class="text-center underline mt-10 underline-offset-4">
+  <a href={DISCORD_CHANNEl} target="_blank">💬 Join Discord</a>
+  <br />
+  <br />
+  <a href={GITHUB_LINK} target="_blank"> ⭐️ Give us a star on Github</a>
+</div>
+<br />
+<br />
+<br />
+<br />
 
 <style>
   .figma_video-button {

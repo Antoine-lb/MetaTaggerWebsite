@@ -31,14 +31,13 @@ background: linear-gradient(to right, #2a0845, #4a2e7e); */
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   color: #eee;
-  min-width: 100vh;
 
   font-family: "Space Mono", monospace;
   font-weight: 400;
   font-style: normal;
 
   --dot-bg: #170320;
-  --dot-color: #464646;
+  --dot-color: #353535;
   --dot-size: 2px;
   --dot-space: 42px;
   background: linear-gradient(

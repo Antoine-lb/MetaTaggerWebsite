@@ -16,7 +16,7 @@
   on:mouseover={() => (isHovering = true)}
   on:mouseleave={() => (isHovering = false)}
   on:focus={() => (isHovering = true)}
-  class="thumbnail relative w-80 aspect-[3/2] rounded-2xl overflow-hidden shadow-lg border border-[#632d89]"
+  class="thumbnail relative w-96 aspect-[3/2] rounded-2xl overflow-hidden shadow-lg border border-[#632d89]"
 >
   <!-- play icon -->
   <div

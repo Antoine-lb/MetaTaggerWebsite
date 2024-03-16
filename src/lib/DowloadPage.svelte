@@ -1,10 +1,6 @@
 <script lang="ts">
   // MADE THIS COMPONENT SO THAT EARLY DOWNLOAD PAGE DOESNT REDIRECT TO FORM, WILL BECOME OBSOLETE AT SOME POINT
-  import {
-    CHECK_OUT_FORM,
-    LINUX_WAILIST_URL,
-    YOUTUBE_MAIN_VIDEO_EMBEDED,
-  } from "$lib/constants";
+  import { CHECK_OUT_FORM, YOUTUBE_MAIN_VIDEO_EMBEDED } from "$lib/constants";
   import { onMount } from "svelte";
 
   import { writable } from "svelte/store";
