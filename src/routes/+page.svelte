@@ -8,6 +8,7 @@
 
 <svelte:head>
   <title>Metatagger AI - File Explorer</title>
+  <meta property="og:image" content="/banner.webp" />
 </svelte:head>
 
 <br />
