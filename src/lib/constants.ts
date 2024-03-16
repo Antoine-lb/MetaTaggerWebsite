@@ -7,6 +7,8 @@ export const YOUTUBE_MAIN_VIDEO_EMBEDED =
 export const YOUTUBE_URL = "https://www.youtube.com/watch?v=paH_91aXrc4";
 export const YOUTUBE_CHANNEL_URL = "https://www.youtube.com/@AntoineLeBaux";
 
+export const DISCORD_CHANNEl = "https://discord.gg/xFCVSZvw";
+
 export const CALENDLY_URL =
   "https://calendly.com/photofolder/photofolder-feedback";
 
