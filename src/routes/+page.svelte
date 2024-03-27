@@ -18,7 +18,7 @@
 <!-- HERO -->
 <img
   class="absolute top-0 -z-10"
-  src="/cover-image.png"
+  src="/cover-image.webp"
   alt="a screenshot of the app"
 />
 <div class="flex mt-5 m-auto justify-center">
